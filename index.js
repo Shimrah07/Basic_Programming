@@ -21,3 +21,15 @@ function checkPrime(num)
 }
 
 console.log(checkPrime(1200));
+
+
+// in another branch
+function evenOdd(num)
+{
+    if(num%2 == 0)
+    return true;
+    else 
+    return false; 
+}
+
+console.log(evenOdd(34));
